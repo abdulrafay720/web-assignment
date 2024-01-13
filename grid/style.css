@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header, nav, footer {
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+  }
+footer{
+    text-align: center;
+}  
+main{
+    text-align: center;
+}
